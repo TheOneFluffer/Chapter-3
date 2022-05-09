@@ -1,7 +1,7 @@
 //Allow user input
 var input = require('readline-sync');
 //creating variable
-var Rank, Other;
+var Rank, Other, Monies;
 Other = 6;
 //Asking user to type in rank:
 Rank = input.questionInt("Please enter your rank: ");
@@ -12,21 +12,22 @@ switch (Rank)
         console.log("Please key in a number");
         break;
     case 1:
-        console.log("Your prize money is $1000.");
+        Monies 1000;
         break;
     case 2:
-        console.log("Your prize money is $800.");
+        Monies 800;
         break;
     case 3:
-        console.log("Your prize money is $700.");
+        Monies 700;
         break;
     case 4:
-        console.log("Your prize money is $300.");
+        Monies 300;
         break;
     case 5:
-        console.log("Your prize money is $300.");
+        Monies 300;
         break;
     default:
-        console.log("Your prize money is $20.");
+        Monies 20;
         break;
 }
+console.log("Your prize money is " + Monies);
