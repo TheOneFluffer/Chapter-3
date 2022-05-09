@@ -30,4 +30,4 @@ switch (Rank)
         Monies 20;
         break;
 }
-console.log("Your prize money is " + Monies);
+console.log("Your prize money is $" + Monies);
